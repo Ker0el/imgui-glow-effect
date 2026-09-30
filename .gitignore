@@ -1,0 +1,33 @@
+# Build output
+build/
+out/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+
+# MSVC
+.vs/
+*.user
+*.suo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeUserPresets.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# ImGui writes this next to the exe if you let it
+imgui.ini
+
+# 本地调试用的临时脚本 / 原始截图，不发布
+_*
+docs_raw_*.png
